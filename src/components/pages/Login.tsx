@@ -1,7 +1,7 @@
 import { memo, useState } from "react";
 import Button from "../atoms/button/Button";
 import useAuth from "../../hooks/useAuth";
-import Toast from "../molecules/toast";
+import Toast from "../molecules/Toast";
 
 export default memo(function Login() {
   const [userId, setUserId] = useState("");
